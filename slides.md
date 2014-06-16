@@ -1,4 +1,4 @@
-title: YYCjs Slides
+title: Why use a framework?
 output: index.html
 theme: theme
 controls: false
@@ -6,17 +6,9 @@ logo: theme/logo.png
 
 --
 
-# YYC.js Presents:
+# Why use a framework?
 
-## An Epic Slide Template
-
-### That totally kicks some ass
-
-#### Kind of like Chuck Norris
-
-##### And Jackie Chan
-
-Maybe even Chris Rock
+## And how... and why not.
 
 --
 
@@ -57,8 +49,14 @@ Maybe even Chris Rock
 
 # Last Month
 
-* Something awesome
-* More awesomeness
+## Optimizing Your JS Workflow
+
+* Modules and build tools
+  * AMD + RequireJS
+  * Component + Makefiles
+  * Browserify
+  * Grunt & Gulp
+* Using Gulp + Browserify
 
 --
 

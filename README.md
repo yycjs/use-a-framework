@@ -1,19 +1,16 @@
-### YYCjs Slide Template
+### Why use a framework?
 
-Our template for our monthly slide deck using [cleaver](http://jdan.github.io/cleaver). Feel free to rip it off if you would like.
+This month we are going talk about why you might want to use a framework (or not), some of issues with building real products with them, and highlight some key features of some of the more popular ones.
 
-To use it locally, there are 3 steps to instant gratification:
+This meetup will be split into two parts. The first half-hour will be about a beginner focussed topic and in the second part we will step it up a notch and do something more advanced. This time:
 
-1. Write [Markdown](http://daringfireball.net/projects/markdown/)
-2. `npm install -g cleaver`
-3. `cleaver path/to/slides.md`
+1) Frameworks?
 
+* What Frameworks are out there?
+* What are the benefits?
+* What are the drawbacks?
+* No framework
 
-#### Special Classes
+2) Making Instaface with CanJS
 
-To make your slides look a little nice there are a few special classes that you can use with this theme.
-
-* `title`
-* `presenter`
-* `sponsors`
-* `image`
+* We're going to convert our app to using CanJS.
