@@ -88,8 +88,8 @@ logo: theme/logo.png
 # Modularity
 
 Split your appication into individual files. We talk more about it
-in our __jQuery 202 session__ ([slides](http://yycjs.com/jquery-202-and-web-components),
-[video]())
+in our __jQuery 202 session__ ([slides](http://yycjs.com/jquery-202-and-web-components/#slide1),
+[video](https://www.youtube.com/watch?v=Bm9C7WvJOIk)):
 
 ```javascript
 var APP = (function() {
@@ -117,10 +117,6 @@ Build tools make your life way easier and allow you to dev faster. We talk more 
 --
 
 # Package management
-
---
-
-# Frameworks
 
 --
 
