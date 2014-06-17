@@ -89,7 +89,7 @@ ul {
 }
 
 .title h1 {
-  display: table-cell; 
+  display: table-cell;
   vertical-align: middle;
   z-index: 10;
 }
@@ -150,4 +150,23 @@ ul {
   max-height: 400px;
   margin: 20px auto;
   display: table-cell;
+}
+
+#gist12457510 {
+  height: 100%;
+  width: 85%;
+}
+
+#gist12457510 .gist-file {
+  height: 100%;
+  overflow: auto;
+}
+
+#gist12457510 .file-data {
+  overflow: hidden;
+  width: 100%;
+}
+
+#gist12457510 pre, #gist12457510 .line-numbers {
+  font-size: 60% !important;
 }

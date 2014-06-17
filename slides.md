@@ -6,9 +6,11 @@ logo: theme/logo.png
 
 --
 
-# Why use a framework?
+# Use a framework?
 
-## And how... and why not.
+## Why... or why not...
+
+## And how to find one
 
 --
 
@@ -57,6 +59,52 @@ logo: theme/logo.png
   * Browserify
   * Grunt & Gulp
 * Using Gulp + Browserify
+
+--
+
+# Today...
+
+* A web developer story
+  * JavaScript & jQuery
+  * Modularity
+  * Build tools
+  * Package management
+  * Framework
+* InstaCan
+
+--
+
+# Once upon a time...
+
+## ... there was a site with some plain JavaScript and maybe some jQuery plugins.
+
+--
+
+<script src="https://gist.github.com/daffl/43749f8e99a8e000a277.js"></script>
+
+--
+
+# Modularity
+
+--
+
+# Build tools
+
+--
+
+# Package management
+
+--
+
+# Frameworks
+
+--
+
+# Framework vs Library
+
+--
+
+# Design patterns
 
 --
 
