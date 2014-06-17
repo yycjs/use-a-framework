@@ -70,6 +70,7 @@ logo: theme/logo.png
   * Build tools
   * Package management
   * Framework
+  * Testing
 * InstaCan
 
 --
@@ -100,11 +101,51 @@ logo: theme/logo.png
 
 --
 
-# Framework vs Library
+# Library vs. Framework
+
+__Library__:
+
+* A set of tools to reduce overhead and improve application consistency by providing reusable pieces of code.
+* A library provides useful tools for a specific purpose (functions, helper libs) so you can build your app your way.
+
+__Framework__:
+
+* A **more opinionated** set of tools to reduce overhead and improve application consistency by providing reusable pieces of code.
+* Inversion of control. Frameworks specify how you should write your app.
 
 --
 
-# Design patterns
+---
+
+# Model View Controller
+
+Separates the representation of information from the user's interaction with it
+<img src="img/mvc.png" alt="MVC overview" style="float: right; margin: 2em;" />
+
+* __Controller__: Updates both, view and model according to user interaction
+* __Model__: The data/domain model
+* __View__: Creates a representation of the model
+
+---
+
+# [TodoMVC](http://todomvc.com/)
+
+The same Todo application implemented using MV\* concepts in most of the popular JavaScript MV\*
+frameworks of today.
+
+<img src="img/todomvc.png" alt="TodoMVC" style="float: right; margin-right: 6em; margin-top: 2em;" />
+
+* Backbone
+* CanJS
+* Ember
+* AngularJS
+* React
+* KnockoutJS
+* ...
+
+--
+
+# Mustache
 
 --
 
