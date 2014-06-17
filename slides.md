@@ -89,7 +89,7 @@ logo: theme/logo.png
 
 Split your appication into individual files. We talk more about it
 in our __jQuery 202 session__ ([slides](http://yycjs.com/jquery-202-and-web-components/#slide1),
-[video]())
+[video](https://www.youtube.com/watch?v=Bm9C7WvJOIk)):
 
 ```javascript
 var APP = (function() {
@@ -115,10 +115,6 @@ var APP = (function() {
 
 --
 
-# Frameworks
-
---
-
 # Library vs. Framework
 
 __Library__:
@@ -133,8 +129,6 @@ __Framework__:
 
 --
 
----
-
 # Model View Controller
 
 Separates the representation of information from the user's interaction with it
@@ -144,7 +138,7 @@ Separates the representation of information from the user's interaction with it
 * __Model__: The data/domain model
 * __View__: Creates a representation of the model
 
----
+--
 
 # [TodoMVC](http://todomvc.com/)
 
