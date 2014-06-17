@@ -88,7 +88,7 @@ logo: theme/logo.png
 # Modularity
 
 Split your appication into individual files. We talk more about it
-in our __jQuery 202 session__ ([slides](http://yycjs.com/jquery-202-and-web-components/#slide1),
+in our __jQuery 202 session__ ([slides](http://yycjs.com/jquery-202-and-web-components),
 [video]())
 
 ```javascript
@@ -108,6 +108,11 @@ var APP = (function() {
 --
 
 # Build tools
+
+Build tools make your life way easier and allow you to dev faster. We talk more about them in our __Optimize Your Workflow session__ ([slides](http://yycjs.com/js-workflow/)
+
+* Grunt
+* Gulp
 
 --
 
@@ -133,8 +138,6 @@ __Framework__:
 
 --
 
----
-
 # Model View Controller
 
 Separates the representation of information from the user's interaction with it
@@ -144,7 +147,7 @@ Separates the representation of information from the user's interaction with it
 * __Model__: The data/domain model
 * __View__: Creates a representation of the model
 
----
+--
 
 # [TodoMVC](http://todomvc.com/)
 
