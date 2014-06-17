@@ -652,6 +652,21 @@ ul {
   </div>
   <div class="slide hidden" id="slide-10">
     <section class="slide-content"><h1 id="modularity">Modularity</h1>
+<p>Split your appication into individual files. We talk more about it
+in our <strong>jQuery 202 session</strong> (<a href="http://yycjs.com/jquery-202-and-web-components/#slide1">slides</a>,
+<a href="">video</a>)</p>
+<pre><code class="lang-javascript"><span class="keyword">var</span> APP = (<span class="keyword">function</span>() {
+    <span class="comment">// Do stuff</span>
+    <span class="keyword">var</span> privateVariable = <span class="string">'Hello '</span>,
+        sayHi = <span class="keyword">function</span>(name) {
+            <span class="keyword">return</span> privateVariable + name;
+        };
+    <span class="comment">// Return API</span>
+    <span class="keyword">return</span> {
+        init : <span class="keyword">function</span>() { <span class="comment">/* ... */</span> },
+        hi : sayHi
+    }
+})();</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-11">

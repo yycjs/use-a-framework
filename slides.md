@@ -87,6 +87,24 @@ logo: theme/logo.png
 
 # Modularity
 
+Split your appication into individual files. We talk more about it
+in our __jQuery 202 session__ ([slides](http://yycjs.com/jquery-202-and-web-components/#slide1),
+[video]())
+
+```javascript
+var APP = (function() {
+	// Do stuff
+	var privateVariable = 'Hello ',
+		sayHi = function(name) {
+			return privateVariable + name;
+		};
+	// Return API
+	return {
+		init : function() { /* ... */ },
+		hi : sayHi
+	}
+})();
+```
 --
 
 # Build tools
