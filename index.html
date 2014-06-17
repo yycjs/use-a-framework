@@ -408,7 +408,12 @@ body {
   background: #FFFFFF;
 }
 
+h1, h2, h3, h4, h5, p, ul {
+  margin: 10px 0;
+}
+
 h1 {
+  font-size: 2em;
   font-weight: 900;
   margin: 20px 0 20px 0;
 }
@@ -416,7 +421,7 @@ h1 {
 h2 {
   color: #AAAAAA;
   font-weight: 500;
-  font-size: 200%;
+  font-size: 1.5em;
   margin: 20px 0;
 }
 
@@ -426,14 +431,12 @@ h3 {
 
 p {
   font-weight: 100;
-}
-
-h1, h2, h3, h4, h5, p, ul {
-  margin: 10px 0;
+  font-size: 0.9em;
 }
 
 ul {
   padding: 20px 0 20px 60px;
+  font-size: 0.9em;
 }
 
 .progress-bar {
@@ -654,7 +657,7 @@ ul {
     <section class="slide-content"><h1 id="modularity">Modularity</h1>
 <p>Split your appication into individual files. We talk more about it
 in our <strong>jQuery 202 session</strong> (<a href="http://yycjs.com/jquery-202-and-web-components/#slide1">slides</a>,
-<a href="https://www.youtube.com/watch?v=Bm9C7WvJOIk">video</a>):</p>
+<a href="https://www.youtube.com/watch?v=Bm9C7WvJOIk">video</a>).</p>
 <pre><code class="lang-javascript"><span class="keyword">var</span> APP = (<span class="keyword">function</span>() {
     <span class="comment">// Do stuff</span>
     <span class="keyword">var</span> privateVariable = <span class="string">'Hello '</span>,
@@ -671,10 +674,18 @@ in our <strong>jQuery 202 session</strong> (<a href="http://yycjs.com/jquery-202
   </div>
   <div class="slide hidden" id="slide-11">
     <section class="slide-content"><h1 id="build-tools">Build tools</h1>
+<p>Build tools make your life way easier and allow you to dev faster. We talk more about them in our <strong>Optimize Your Workflow session</strong> (<a href="http://yycjs.com/js-workflow/">slides</a>).</p>
+<p><img src="img/browserify-logo.png" alt="Browserify logo" style="max-width: 400px; float: left; margin-top: 3em;">
+<img src="img/grunt-logo.png" alt="Grunt logo" style="max-width: 200px; float: left; margin-top: 2em;">
+<img src="img/gulp-logo.png" alt="Gulp logo" style="max-width: 200px; float: left;"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-12">
     <section class="slide-content"><h1 id="package-management">Package management</h1>
+<p>A framework is only as good as its package manager. Thankfully we have good ones! We also talk about them in our <strong>Optimize Your Workflow session</strong> (<a href="http://yycjs.com/js-workflow/">slides</a>).</p>
+<p><img src="img/npm-logo.png" alt="npm logo" style="max-width: 300px; float: left; margin-top: 2em;">
+<img src="img/bower-logo.png" alt="Bower logo" style="max-width: 200px; float: left; margin: 1em 1em;">
+<img src="img/component-logo.jpg" alt="Component logo" style="max-width: 300px; float: left; margin-top: 2em;"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-13">
@@ -694,7 +705,7 @@ in our <strong>jQuery 202 session</strong> (<a href="http://yycjs.com/jquery-202
   <div class="slide hidden" id="slide-14">
     <section class="slide-content"><h1 id="model-view-controller">Model View Controller</h1>
 <p>Separates the representation of information from the user&#39;s interaction with it
-<img src="img/mvc.png" alt="MVC overview" style="float: right; margin: 2em;" /></p>
+<img src="img/mvc.png" alt="MVC overview" style="float: right; margin-right: 2em; margin-top: 1em;" /></p>
 <ul>
 <li><strong>Controller</strong>: Updates both, view and model according to user interaction</li>
 <li><strong>Model</strong>: The data/domain model</li>
@@ -706,7 +717,7 @@ in our <strong>jQuery 202 session</strong> (<a href="http://yycjs.com/jquery-202
     <section class="slide-content"><h1 id="-todomvc-http-todomvc-com-"><a href="http://todomvc.com/">TodoMVC</a></h1>
 <p>The same Todo application implemented using MV* concepts in most of the popular JavaScript MV*
 frameworks of today.</p>
-<p><img src="img/todomvc.png" alt="TodoMVC" style="float: right; margin-right: 6em; margin-top: 2em;" /></p>
+<p><img src="img/todomvc.png" alt="TodoMVC" style="float: right; margin-right: 6em;" /></p>
 <ul>
 <li>Backbone</li>
 <li>CanJS</li>
@@ -719,14 +730,38 @@ frameworks of today.</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-16">
-    <section class="slide-content"><h1 id="mustache">Mustache</h1>
+    <section class="slide-content"><h1 id="you-don-t-always-need-a-framework">You Don&#39;t Always Need a Framework</h1>
+<p><img src="img/no-bootstrap.png" alt="No Bootstrap" style="width: 50%; float: right; margin-right: 6em;" /></p>
+<ul>
+<li>Web Pages</li>
+<li>Widgets</li>
+<li>Components</li>
+<li>Small applications</li>
+</ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-17">
+    <section class="slide-content"><h1 id="what-to-look-for">What To Look For</h1>
+<p>Choosing a framework is like getting married. You&#39;ll probably be stuck with it for a loooong time. <strong>Choose wisely</strong>:</p>
+<ul>
+<li>Flexibility &amp; Modularity</li>
+<li>Maintenance &amp; Development Activity</li>
+<li>Community Support</li>
+<li>How big is your app actually going to get?</li>
+<li>Do you REALLY need everything that it provides?</li>
+<li>Developer culture</li>
+<li>Learning Curve</li>
+<li>Code Size</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-18">
     <section class="slide-content"><h1 id="next-month">Next Month</h1>
+<p><img src="img/awesome-sauce.png" alt="Awesome Sauce" style="width: 50%; float: right; margin-right: 6em;" /></p>
 <ul>
 <li>Something awesome</li>
 <li>More awesomeness</li>
+<li>Even more awesome sauce</li>
 </ul>
 </section>
   </div>
